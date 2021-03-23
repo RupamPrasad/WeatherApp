@@ -16,14 +16,14 @@
                 margin: 0;
                 padding-top: 10%;
                 text-align:center;
-                background-image: url("https://www.survivingwithandroid.com/wp-content/uploads/2014/11/android_weather_app.jpg");
+                background-image: url("https://eco-cdn.co.uk/webdeveloper2.0/content/6-php/background.jpeg");
                 background-repeat: no-repeat;
                 background-size:cover;
             }
 
             .mainPart{
                 color: #111d5e;
-                margin:10% auto 0 auto;
+                margin:3% auto 0 auto;
                 font-family:cursive;
                 font-size: 1.5rem;
                 font-weight: bold;
@@ -32,22 +32,24 @@
 
             input
             {
+                padding: 10px;
                 margin:0 auto 0 auto;
-                font-size:1.3rem;
+                font-size:1rem;
                 border-radius: 5px;
-                border: 2px solid black;
+                border: none;
+                outline: none;
             
             }
             button{
-                width:12%;
-                height: 5%;
-                margin-top: 60px;
+                margin-top: 20px;
+                padding: 10px;
                 font-size: 0.8rem;
                 font-weight: bold;
                 border-radius: 15px;
                 background-color: #111d5e;
                 color: cornsilk;
             }
+
         </style>
 
     </head>
@@ -55,13 +57,12 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <h1> Enter The City Name to know the Weather</h1>
+        <h1> What's The Weather?</h1>
         <div class="mainPart">
             <form method="post">
-                
-                <lable > Enter City Name: </lable>
-                <input name="city" type="text" placeholder="City Name"><br>
-                <button> GO </button>
+                <p> Enter the name of a city</p>
+                <input name="city" type="text" placeholder="Eg. Surat"><br>
+                <button> Submit </button>
             </form>
         </div>
     </body>
